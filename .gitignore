@@ -1,0 +1,10 @@
+# extensions to ignore
+*.xml
+
+# files to ignore
+TEMP
+
+# folders to ignore
+.idea/
+
+
