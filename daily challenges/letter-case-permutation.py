@@ -13,6 +13,7 @@ class Solution:
                 continue
             perm_count += 1
             _s[i] = char.upper() if char in lower else char.lower()
+            # FIXME does not capture all permutations.. only some
             permutations.append(''.join(_s))
         assert len(permutations) == 2 ** perm_count, 'permutation missing'
         return permutations
