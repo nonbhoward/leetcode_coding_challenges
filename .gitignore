@@ -5,6 +5,7 @@
 TEMP
 
 # folders to ignore
-.idea/
+.idea
+venv*
 
 
