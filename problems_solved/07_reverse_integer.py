@@ -29,6 +29,6 @@ class Solution:
 
 
 _x = -123
-s = Solution()
-rev = s.reverse(_x)
+_s = Solution()
+_rev = _s.reverse(_x)
 pass

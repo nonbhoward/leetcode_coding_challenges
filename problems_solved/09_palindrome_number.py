@@ -17,6 +17,6 @@ class Solution:
 
 
 _x = 12345678987654321
-s = Solution()
-is_pal = s.is_palindrome(_x)
+_s = Solution()
+is_pal = _s.is_palindrome(_x)
 pass

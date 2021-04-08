@@ -12,7 +12,7 @@ class Solution:
                     return indices
 
 
-nums = [2, 7, 11, 15]
-target = 9
-s = Solution()
-s.two_sum(nums, target)
+_nums = [2, 7, 11, 15]
+_target = 9
+_s = Solution()
+_s.two_sum(_nums, _target)
