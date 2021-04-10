@@ -1,14 +1,17 @@
 class ListNode:
     def __init__(self, val=0, _next=None):
         self.val = val
-        self.next = next
+        self.next = _next
 
 
 class Solution:
     def add_two_numbers(self, ln1: ListNode, ln2: ListNode) -> ListNode:
-        for _ in range(10):
-            print(f'value is {ln1.val}')
-            ln1 = ln1.next
+        carry = False
+        while ln1 and ln2:
+            l_sum = ln1.val + ln2.val if not carry else ln1.val + ln2.val + 1
+            carry = True if l_sum > 9 else False
+            l_sum = l_sum - 10 if carry else l_sum
+            ln1, ln2 = ln1.next, ln2.next
 
 
 _ln1 = ListNode(val=3,
