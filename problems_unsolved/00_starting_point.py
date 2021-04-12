@@ -1,6 +1,6 @@
 class Solution:
-    def challenge(self, input_) -> None:
-        input_ = self.__class__
+    def challenge(self, arg) -> None:
+        arg = self.__class__
 
 
 _input = 0
